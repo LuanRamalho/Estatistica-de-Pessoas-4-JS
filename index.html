@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Estatísticas de Preferências</title>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Estatísticas de Preferências</h1>
+    <div class="input-group">
+        <label for="anime">Quantidade de pessoas que gostam de Anime:</label>
+        <input type="number" id="anime" value="0" min="0">
+    </div>
+    <div class="input-group">
+        <label for="desenhos">Quantidade de pessoas que gostam de Desenhos Animados:</label>
+        <input type="number" id="desenhos" value="0" min="0">
+    </div>
+    <div class="input-group">
+        <label for="series">Quantidade de pessoas que gostam de Séries:</label>
+        <input type="number" id="series" value="0" min="0">
+    </div>
+    <div class="input-group">
+        <label for="filmes">Quantidade de pessoas que gostam de Filmes:</label>
+        <input type="number" id="filmes" value="0" min="0">
+    </div>
+    <div class="input-group">
+        <label for="ambos">Quantidade de pessoas que gostam de Ambos (Tudo):</label>
+        <input type="number" id="ambos" value="0" min="0">
+    </div>
+
+    <div class="results">
+        <h2>Total: <span id="total">0</span></h2>
+
+        <h3>Estatísticas:</h3>
+        <div id="stats">
+            <!-- As estatísticas e barras de progresso aparecerão aqui -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
